@@ -2,7 +2,7 @@
 
 COMMENT =	simply control external programs
 
-DISTNAME =	childprocess-0.5.6
+DISTNAME =	childprocess-0.5.9
 CATEGORIES =	devel
 
 HOMEPAGE=	http://github.com/jarib/childprocess
@@ -15,7 +15,7 @@ PERMIT_PACKAGE_CDROM =	Yes
 MODULES =	lang/ruby
 
 BUILD_DEPENDS = ${RUN_DEPENDS}
-RUN_DEPENDS =	devel/ruby-ffi,${MODRUBY_FLAVOR}
+RUN_DEPENDS =	devel/ruby-ffi,${MODRUBY_FLAVOR},>=1.0.11,<2
 
 CONFIGURE_STYLE = ruby gem
 
